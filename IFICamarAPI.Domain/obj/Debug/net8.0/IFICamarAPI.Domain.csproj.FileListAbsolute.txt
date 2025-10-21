@@ -1,0 +1,12 @@
+D:\IFICamarAPI\IFICamarAPI.Domain\bin\Debug\net8.0\IFICamarAPI.Domain.deps.json
+D:\IFICamarAPI\IFICamarAPI.Domain\bin\Debug\net8.0\IFICamarAPI.Domain.dll
+D:\IFICamarAPI\IFICamarAPI.Domain\bin\Debug\net8.0\IFICamarAPI.Domain.pdb
+D:\IFICamarAPI\IFICamarAPI.Domain\obj\Debug\net8.0\IFICamarAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\IFICamarAPI\IFICamarAPI.Domain\obj\Debug\net8.0\IFICamarAPI.Domain.AssemblyInfoInputs.cache
+D:\IFICamarAPI\IFICamarAPI.Domain\obj\Debug\net8.0\IFICamarAPI.Domain.AssemblyInfo.cs
+D:\IFICamarAPI\IFICamarAPI.Domain\obj\Debug\net8.0\IFICamarAPI.Domain.csproj.CoreCompileInputs.cache
+D:\IFICamarAPI\IFICamarAPI.Domain\obj\Debug\net8.0\IFICamarAPI.Domain.dll
+D:\IFICamarAPI\IFICamarAPI.Domain\obj\Debug\net8.0\refint\IFICamarAPI.Domain.dll
+D:\IFICamarAPI\IFICamarAPI.Domain\obj\Debug\net8.0\IFICamarAPI.Domain.pdb
+D:\IFICamarAPI\IFICamarAPI.Domain\obj\Debug\net8.0\ref\IFICamarAPI.Domain.dll
+D:\IFICamarAPI\IFICamarAPI.Domain\obj\Debug\net8.0\IFICamarAPI.Domain.csproj.AssemblyReference.cache

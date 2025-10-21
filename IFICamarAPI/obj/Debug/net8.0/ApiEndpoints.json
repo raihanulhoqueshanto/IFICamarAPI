@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "IFICamarAPI.Controllers.EmployeeController",
+    "Method": "CreateOrUpdateEmployeeInfo",
+    "RelativePath": "api/Employee/CreateOrUpdateEmployeeInfo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "IFICamarAPI.Domain.Entities.Employee.EmployeeInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

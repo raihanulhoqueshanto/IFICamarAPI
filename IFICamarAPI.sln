@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFICamarAPI", "IFICamarAPI\IFICamarAPI.csproj", "{AB7CCCF4-B05C-4799-903A-74184E9043DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFICamarAPI.Domain", "IFICamarAPI.Domain\IFICamarAPI.Domain.csproj", "{CE24ABE5-A382-4A4C-B7BB-D608CB91A243}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFICamarAPI.Application", "IFICamarAPI.Application\IFICamarAPI.Application.csproj", "{78F2FC8B-1043-44FC-9372-B0256C5871B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFICamarAPI.Insfrastructure", "IFICamarAPI.Insfrastructure\IFICamarAPI.Insfrastructure.csproj", "{105EB37D-949A-4B11-A51C-6CB783F74E74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB7CCCF4-B05C-4799-903A-74184E9043DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB7CCCF4-B05C-4799-903A-74184E9043DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB7CCCF4-B05C-4799-903A-74184E9043DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB7CCCF4-B05C-4799-903A-74184E9043DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE24ABE5-A382-4A4C-B7BB-D608CB91A243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE24ABE5-A382-4A4C-B7BB-D608CB91A243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE24ABE5-A382-4A4C-B7BB-D608CB91A243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE24ABE5-A382-4A4C-B7BB-D608CB91A243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78F2FC8B-1043-44FC-9372-B0256C5871B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F2FC8B-1043-44FC-9372-B0256C5871B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F2FC8B-1043-44FC-9372-B0256C5871B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F2FC8B-1043-44FC-9372-B0256C5871B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{105EB37D-949A-4B11-A51C-6CB783F74E74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{105EB37D-949A-4B11-A51C-6CB783F74E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{105EB37D-949A-4B11-A51C-6CB783F74E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{105EB37D-949A-4B11-A51C-6CB783F74E74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

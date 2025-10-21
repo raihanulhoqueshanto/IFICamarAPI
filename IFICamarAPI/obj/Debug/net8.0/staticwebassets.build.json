@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "b2rw8ja/Cy7ZP8bv015u8iqsjxU9PhrOIiqKomaw0H8=",
+  "Source": "IFICamarAPI",
+  "BasePath": "_content/IFICamarAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

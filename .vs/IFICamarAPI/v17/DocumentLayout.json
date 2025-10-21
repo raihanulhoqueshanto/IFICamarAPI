@@ -1,0 +1,178 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\IFICamarAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{105EB37D-949A-4B11-A51C-6CB783F74E74}|IFICamarAPI.Insfrastructure\\IFICamarAPI.Insfrastructure.csproj|d:\\ificamarapi\\ificamarapi.insfrastructure\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105EB37D-949A-4B11-A51C-6CB783F74E74}|IFICamarAPI.Insfrastructure\\IFICamarAPI.Insfrastructure.csproj|solutionrelative:ificamarapi.insfrastructure\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB7CCCF4-B05C-4799-903A-74184E9043DB}|IFICamarAPI\\IFICamarAPI.csproj|d:\\ificamarapi\\ificamarapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB7CCCF4-B05C-4799-903A-74184E9043DB}|IFICamarAPI\\IFICamarAPI.csproj|solutionrelative:ificamarapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105EB37D-949A-4B11-A51C-6CB783F74E74}|IFICamarAPI.Insfrastructure\\IFICamarAPI.Insfrastructure.csproj|d:\\ificamarapi\\ificamarapi.insfrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105EB37D-949A-4B11-A51C-6CB783F74E74}|IFICamarAPI.Insfrastructure\\IFICamarAPI.Insfrastructure.csproj|solutionrelative:ificamarapi.insfrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78F2FC8B-1043-44FC-9372-B0256C5871B6}|IFICamarAPI.Application\\IFICamarAPI.Application.csproj|d:\\ificamarapi\\ificamarapi.application\\requests\\employee\\commands\\createorupdateemployeeinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78F2FC8B-1043-44FC-9372-B0256C5871B6}|IFICamarAPI.Application\\IFICamarAPI.Application.csproj|solutionrelative:ificamarapi.application\\requests\\employee\\commands\\createorupdateemployeeinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB7CCCF4-B05C-4799-903A-74184E9043DB}|IFICamarAPI\\IFICamarAPI.csproj|d:\\ificamarapi\\ificamarapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AB7CCCF4-B05C-4799-903A-74184E9043DB}|IFICamarAPI\\IFICamarAPI.csproj|solutionrelative:ificamarapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE24ABE5-A382-4A4C-B7BB-D608CB91A243}|IFICamarAPI.Domain\\IFICamarAPI.Domain.csproj|d:\\ificamarapi\\ificamarapi.domain\\entities\\employee\\employeeinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE24ABE5-A382-4A4C-B7BB-D608CB91A243}|IFICamarAPI.Domain\\IFICamarAPI.Domain.csproj|solutionrelative:ificamarapi.domain\\entities\\employee\\employeeinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105EB37D-949A-4B11-A51C-6CB783F74E74}|IFICamarAPI.Insfrastructure\\IFICamarAPI.Insfrastructure.csproj|d:\\ificamarapi\\ificamarapi.insfrastructure\\data\\mysqldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105EB37D-949A-4B11-A51C-6CB783F74E74}|IFICamarAPI.Insfrastructure\\IFICamarAPI.Insfrastructure.csproj|solutionrelative:ificamarapi.insfrastructure\\data\\mysqldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105EB37D-949A-4B11-A51C-6CB783F74E74}|IFICamarAPI.Insfrastructure\\IFICamarAPI.Insfrastructure.csproj|d:\\ificamarapi\\ificamarapi.insfrastructure\\ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105EB37D-949A-4B11-A51C-6CB783F74E74}|IFICamarAPI.Insfrastructure\\IFICamarAPI.Insfrastructure.csproj|solutionrelative:ificamarapi.insfrastructure\\ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78F2FC8B-1043-44FC-9372-B0256C5871B6}|IFICamarAPI.Application\\IFICamarAPI.Application.csproj|d:\\ificamarapi\\ificamarapi.application\\requests\\employee\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78F2FC8B-1043-44FC-9372-B0256C5871B6}|IFICamarAPI.Application\\IFICamarAPI.Application.csproj|solutionrelative:ificamarapi.application\\requests\\employee\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\IFICamarAPI\\IFICamarAPI\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "IFICamarAPI\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\IFICamarAPI\\IFICamarAPI\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "IFICamarAPI\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAIwBgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T19:10:37.82Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeInfo.cs",
+              "DocumentMoniker": "D:\\IFICamarAPI\\IFICamarAPI.Domain\\Entities\\Employee\\EmployeeInfo.cs",
+              "RelativeDocumentMoniker": "IFICamarAPI.Domain\\Entities\\Employee\\EmployeeInfo.cs",
+              "ToolTip": "D:\\IFICamarAPI\\IFICamarAPI.Domain\\Entities\\Employee\\EmployeeInfo.cs",
+              "RelativeToolTip": "IFICamarAPI.Domain\\Entities\\Employee\\EmployeeInfo.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T19:28:49.576Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateOrUpdateEmployeeInfo.cs",
+              "DocumentMoniker": "D:\\IFICamarAPI\\IFICamarAPI.Application\\Requests\\Employee\\Commands\\CreateOrUpdateEmployeeInfo.cs",
+              "RelativeDocumentMoniker": "IFICamarAPI.Application\\Requests\\Employee\\Commands\\CreateOrUpdateEmployeeInfo.cs",
+              "ToolTip": "D:\\IFICamarAPI\\IFICamarAPI.Application\\Requests\\Employee\\Commands\\CreateOrUpdateEmployeeInfo.cs",
+              "RelativeToolTip": "IFICamarAPI.Application\\Requests\\Employee\\Commands\\CreateOrUpdateEmployeeInfo.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAwwCAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T19:13:52.128Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "D:\\IFICamarAPI\\IFICamarAPI.Application\\Requests\\Employee\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "IFICamarAPI.Application\\Requests\\Employee\\IEmployeeService.cs",
+              "ToolTip": "D:\\IFICamarAPI\\IFICamarAPI.Application\\Requests\\Employee\\IEmployeeService.cs",
+              "RelativeToolTip": "IFICamarAPI.Application\\Requests\\Employee\\IEmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T19:18:11.915Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "D:\\IFICamarAPI\\IFICamarAPI.Insfrastructure\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "IFICamarAPI.Insfrastructure\\Services\\EmployeeService.cs",
+              "ToolTip": "D:\\IFICamarAPI\\IFICamarAPI.Insfrastructure\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "IFICamarAPI.Insfrastructure\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAuwCMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T19:23:15.065Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\IFICamarAPI\\IFICamarAPI.Insfrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "IFICamarAPI.Insfrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\IFICamarAPI\\IFICamarAPI.Insfrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "IFICamarAPI.Insfrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwDUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T19:38:22.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\IFICamarAPI\\IFICamarAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "IFICamarAPI\\appsettings.json",
+              "ToolTip": "D:\\IFICamarAPI\\IFICamarAPI\\appsettings.json",
+              "RelativeToolTip": "IFICamarAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-21T19:49:42.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\IFICamarAPI\\IFICamarAPI.Insfrastructure\\IoC\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "IFICamarAPI.Insfrastructure\\IoC\\DependencyInjection.cs",
+              "ToolTip": "D:\\IFICamarAPI\\IFICamarAPI.Insfrastructure\\IoC\\DependencyInjection.cs",
+              "RelativeToolTip": "IFICamarAPI.Insfrastructure\\IoC\\DependencyInjection.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T19:38:29.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MysqlDbContext.cs",
+              "DocumentMoniker": "D:\\IFICamarAPI\\IFICamarAPI.Insfrastructure\\Data\\MysqlDbContext.cs",
+              "RelativeDocumentMoniker": "IFICamarAPI.Insfrastructure\\Data\\MysqlDbContext.cs",
+              "ToolTip": "D:\\IFICamarAPI\\IFICamarAPI.Insfrastructure\\Data\\MysqlDbContext.cs",
+              "RelativeToolTip": "IFICamarAPI.Insfrastructure\\Data\\MysqlDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwCAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T19:38:25.887Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

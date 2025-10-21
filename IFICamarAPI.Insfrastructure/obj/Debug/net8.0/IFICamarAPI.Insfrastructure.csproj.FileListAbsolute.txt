@@ -1,0 +1,17 @@
+D:\IFICamarAPI\IFICamarAPI.Insfrastructure\bin\Debug\net8.0\IFICamarAPI.Insfrastructure.deps.json
+D:\IFICamarAPI\IFICamarAPI.Insfrastructure\bin\Debug\net8.0\IFICamarAPI.Insfrastructure.dll
+D:\IFICamarAPI\IFICamarAPI.Insfrastructure\bin\Debug\net8.0\IFICamarAPI.Insfrastructure.pdb
+D:\IFICamarAPI\IFICamarAPI.Insfrastructure\bin\Debug\net8.0\IFICamarAPI.Application.dll
+D:\IFICamarAPI\IFICamarAPI.Insfrastructure\bin\Debug\net8.0\IFICamarAPI.Domain.dll
+D:\IFICamarAPI\IFICamarAPI.Insfrastructure\bin\Debug\net8.0\IFICamarAPI.Application.pdb
+D:\IFICamarAPI\IFICamarAPI.Insfrastructure\bin\Debug\net8.0\IFICamarAPI.Domain.pdb
+D:\IFICamarAPI\IFICamarAPI.Insfrastructure\obj\Debug\net8.0\IFICamarAPI.Insfrastructure.csproj.AssemblyReference.cache
+D:\IFICamarAPI\IFICamarAPI.Insfrastructure\obj\Debug\net8.0\IFICamarAPI.Insfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\IFICamarAPI\IFICamarAPI.Insfrastructure\obj\Debug\net8.0\IFICamarAPI.Insfrastructure.AssemblyInfoInputs.cache
+D:\IFICamarAPI\IFICamarAPI.Insfrastructure\obj\Debug\net8.0\IFICamarAPI.Insfrastructure.AssemblyInfo.cs
+D:\IFICamarAPI\IFICamarAPI.Insfrastructure\obj\Debug\net8.0\IFICamarAPI.Insfrastructure.csproj.CoreCompileInputs.cache
+D:\IFICamarAPI\IFICamarAPI.Insfrastructure\obj\Debug\net8.0\IFICamar.3B43FD3C.Up2Date
+D:\IFICamarAPI\IFICamarAPI.Insfrastructure\obj\Debug\net8.0\IFICamarAPI.Insfrastructure.dll
+D:\IFICamarAPI\IFICamarAPI.Insfrastructure\obj\Debug\net8.0\refint\IFICamarAPI.Insfrastructure.dll
+D:\IFICamarAPI\IFICamarAPI.Insfrastructure\obj\Debug\net8.0\IFICamarAPI.Insfrastructure.pdb
+D:\IFICamarAPI\IFICamarAPI.Insfrastructure\obj\Debug\net8.0\ref\IFICamarAPI.Insfrastructure.dll
