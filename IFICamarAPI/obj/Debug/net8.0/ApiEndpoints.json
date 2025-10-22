@@ -1,16 +1,119 @@
 [
   {
     "ContainingType": "IFICamarAPI.Controllers.EmployeeController",
-    "Method": "CreateOrUpdateEmployeeInfo",
-    "RelativePath": "api/Employee/CreateOrUpdateEmployeeInfo",
+    "Method": "CreateOrUpdateEmployeePostingInfo",
+    "RelativePath": "api/Employee/CreateOrUpdateEmployeePostingInfo",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "command",
-        "Type": "IFICamarAPI.Domain.Entities.Employee.EmployeeInfo",
+        "Type": "IFICamarAPI.Domain.Entities.Employee.EmployeePostingInfo",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IFICamarAPI.Controllers.EmployeeController",
+    "Method": "GetEmployeePreferences",
+    "RelativePath": "api/Employee/GetEmployeePreferences",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "employeeId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "employeeName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "isActive",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "getAll",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "currentPage",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "itemsPerPage",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IFICamarAPI.Controllers.PostingPlaceController",
+    "Method": "CreateOrUpdatePostingPlace",
+    "RelativePath": "api/PostingPlace/CreateOrUpdatePostingPlace",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "IFICamarAPI.Domain.Entities.PostingPlace.PostingPlace",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IFICamarAPI.Controllers.PostingPlaceController",
+    "Method": "GetPostingPlaces",
+    "RelativePath": "api/PostingPlace/GetPostingPlaces",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "placeName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "isActive",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "getAll",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "currentPage",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "itemsPerPage",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Employee/CreateOrUpdateEmployeeInfo": {
+    "/api/Employee/CreateOrUpdateEmployeePostingInfo": {
       "post": {
         "tags": [
           "Employee"
@@ -14,17 +14,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/EmployeeInfo"
+                "$ref": "#/components/schemas/EmployeePostingInfo"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/EmployeeInfo"
+                "$ref": "#/components/schemas/EmployeePostingInfo"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/EmployeeInfo"
+                "$ref": "#/components/schemas/EmployeePostingInfo"
               }
             }
           }
@@ -35,11 +35,167 @@
           }
         }
       }
+    },
+    "/api/Employee/GetEmployeePreferences": {
+      "get": {
+        "tags": [
+          "Employee"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "employeeId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "employeeName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "isActive",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "getAll",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "currentPage",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "itemsPerPage",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/PostingPlace/CreateOrUpdatePostingPlace": {
+      "post": {
+        "tags": [
+          "PostingPlace"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PostingPlace"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PostingPlace"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PostingPlace"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/PostingPlace/GetPostingPlaces": {
+      "get": {
+        "tags": [
+          "PostingPlace"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "placeName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "isActive",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "getAll",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "currentPage",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "itemsPerPage",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
     "schemas": {
-      "EmployeeInfo": {
+      "EmployeePostingInfo": {
         "type": "object",
         "properties": {
           "ip": {
@@ -68,15 +224,63 @@
             "type": "integer",
             "format": "int32"
           },
-          "firstName": {
+          "employeeId": {
             "type": "string",
             "nullable": true
           },
-          "lastName": {
+          "employeeName": {
             "type": "string",
             "nullable": true
           },
-          "nid": {
+          "preferencePlaceOne": {
+            "type": "string",
+            "nullable": true
+          },
+          "preferencePlaceTwo": {
+            "type": "string",
+            "nullable": true
+          },
+          "preferencePlaceThree": {
+            "type": "string",
+            "nullable": true
+          },
+          "isActive": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PostingPlace": {
+        "type": "object",
+        "properties": {
+          "ip": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "updatedBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "updatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "placeName": {
             "type": "string",
             "nullable": true
           },

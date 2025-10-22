@@ -15,3 +15,4 @@ D:\IFICamarAPI\IFICamarAPI.Insfrastructure\obj\Debug\net8.0\IFICamarAPI.Insfrast
 D:\IFICamarAPI\IFICamarAPI.Insfrastructure\obj\Debug\net8.0\refint\IFICamarAPI.Insfrastructure.dll
 D:\IFICamarAPI\IFICamarAPI.Insfrastructure\obj\Debug\net8.0\IFICamarAPI.Insfrastructure.pdb
 D:\IFICamarAPI\IFICamarAPI.Insfrastructure\obj\Debug\net8.0\ref\IFICamarAPI.Insfrastructure.dll
+D:\IFICamarAPI\IFICamarAPI.Insfrastructure\obj\Debug\net8.0\IFICamarAPI.Insfrastructure.sourcelink.json

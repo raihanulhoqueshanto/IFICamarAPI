@@ -13,3 +13,4 @@ D:\IFICamarAPI\IFICamarAPI.Application\obj\Debug\net8.0\IFICamarAPI.Application.
 D:\IFICamarAPI\IFICamarAPI.Application\obj\Debug\net8.0\refint\IFICamarAPI.Application.dll
 D:\IFICamarAPI\IFICamarAPI.Application\obj\Debug\net8.0\IFICamarAPI.Application.pdb
 D:\IFICamarAPI\IFICamarAPI.Application\obj\Debug\net8.0\ref\IFICamarAPI.Application.dll
+D:\IFICamarAPI\IFICamarAPI.Application\obj\Debug\net8.0\IFICamarAPI.Application.sourcelink.json

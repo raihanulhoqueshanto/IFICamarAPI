@@ -10,3 +10,4 @@ D:\IFICamarAPI\IFICamarAPI.Domain\obj\Debug\net8.0\refint\IFICamarAPI.Domain.dll
 D:\IFICamarAPI\IFICamarAPI.Domain\obj\Debug\net8.0\IFICamarAPI.Domain.pdb
 D:\IFICamarAPI\IFICamarAPI.Domain\obj\Debug\net8.0\ref\IFICamarAPI.Domain.dll
 D:\IFICamarAPI\IFICamarAPI.Domain\obj\Debug\net8.0\IFICamarAPI.Domain.csproj.AssemblyReference.cache
+D:\IFICamarAPI\IFICamarAPI.Domain\obj\Debug\net8.0\IFICamarAPI.Domain.sourcelink.json

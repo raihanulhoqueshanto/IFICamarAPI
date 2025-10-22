@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using IFICamarAPI.Application.Requests.Employee;
+using IFICamarAPI.Application.Requests.PlaceOfPosting;
 using IFICamarAPI.Insfrastructure.Data;
 using IFICamarAPI.Insfrastructure.Services;
 using Microsoft.EntityFrameworkCore;
@@ -32,6 +33,7 @@ namespace IFICamarAPI.Insfrastructure.IoC
             services.AddScoped<MysqlDbContext>();
 
             services.AddScoped<IEmployeeService, EmployeeService>();
+            services.AddScoped<IPostingPlaceService, PostingPlaceService>();
 
             return services;
         }

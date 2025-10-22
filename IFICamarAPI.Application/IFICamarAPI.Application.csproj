@@ -18,8 +18,4 @@
     <ProjectReference Include="..\IFICamarAPI.Domain\IFICamarAPI.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Requests\Employee\Queries\" />
-  </ItemGroup>
-
 </Project>

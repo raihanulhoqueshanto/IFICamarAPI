@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using IFICamarAPI.Domain.Entities.Common.Models;
 using IFICamarAPI.Domain.Entities.Employee;
+using IFICamarAPI.Domain.Entities.PostingPlace;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -19,8 +20,6 @@ namespace IFICamarAPI.Insfrastructure.Data
         {
             _httpContextAccessor = httpContextAccessor;
         }
-
-        public DbSet<EmployeeInfo> EmployeeInfos { get; set; }
 
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
         {
@@ -70,5 +69,8 @@ namespace IFICamarAPI.Insfrastructure.Data
                 throw;
             }
         }
+
+        public DbSet<EmployeePostingInfo> EmployeePostingInfos { get; set; }
+        public DbSet<PostingPlace> PostingPlaces { get; set; }      
     }
 }

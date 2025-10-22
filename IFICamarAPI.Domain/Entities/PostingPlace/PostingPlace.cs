@@ -7,23 +7,17 @@ using System.Text;
 using System.Threading.Tasks;
 using IFICamarAPI.Domain.Entities.Common.Models;
 
-namespace IFICamarAPI.Domain.Entities.Employee
+namespace IFICamarAPI.Domain.Entities.PostingPlace
 {
-    [Table("employee_info")]
-    public class EmployeeInfo : CommonEntity
+    [Table("posting_place")]
+    public class PostingPlace : CommonEntity
     {
         [Column("id")]
         [Key]
         public int Id { get; set; }
 
-        [Column("first_name")]
-        public string FirstName { get; set; }
-
-        [Column("last_name")]
-        public string LastName { get; set; }
-
-        [Column("nid")]
-        public string Nid { get; set; }
+        [Column("place_name")]
+        public string PlaceName { get; set; }
 
         [Column("is_active")]
         public string IsActive { get; set; }
